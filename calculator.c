@@ -2,6 +2,10 @@
 
 int diffNum(int , int);
 int sum(int,int);
+void product(int a,int b)
+{
+    printf("\nproductt is : %d\n\n\n",a*b);
+}
 int  main(){
     int a;
     int b;
@@ -10,6 +14,7 @@ int  main(){
     scanf("%d",&a);
     printf("\nEnter another number :");
     scanf("%d",&b);
+    product(a,b);
     subtract=diffNum(a,b);
 printf("The subtraction of these two number is :%d",subtract);
 printf("\nThe sum of %d and %d is %d",a,b,sum(a,b));
